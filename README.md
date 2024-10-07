@@ -30,11 +30,11 @@ vllm==0.2.4
 
 
 ## 💻 Models
-- You can download the model that has been trained with Multilingual Supervised Fine-tuning (MSFT) using multilingual dataset, i.e., first stage model (See model details in Appendix A.4) from huggingface hub [Link](https://huggingface.co/hengyuan1/mgsm-stage-1) and fill the variable `model_dict["mgsm-llama-2-7b"]` (in `pipeline_train-eval.sh`) with its path content.
+- You can download the model that has been trained with Multilingual Supervised Fine-tuning (MSFT) using multilingual dataset, i.e., first stage model (See more details in Appendix A.4) from huggingface hub [[Link](https://huggingface.co/hengyuan1/mgsm-stage-1)] and fill the variable `model_dict["mgsm-llama-2-7b"]` (in `pipeline_train-eval.sh`) with its path content.
 
 
 ## 📥 Data
-- First, download the data from QAlign repo: [Link](https://github.com/NJUNLP/QAlign)
+- First, download the data from QAlign repo [[Link](https://github.com/NJUNLP/QAlign)]
 - Then, go to `data` directory run `python build_gen_data.py` and `python build_trans_data.py` respectively.
 - Finally, fill variable `data_dict["MGSM8k-gen"]` and `data_dict["MGSM8k-trans"]` in `pipeline_train-eval.sh` with their corresponding paths.
 
