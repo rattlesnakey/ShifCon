@@ -47,7 +47,7 @@ train(){
 
 
 
-mathoctopus_shift_eval(){
+math_shift_eval(){
     python ${BASE_DIR}/src/generate_and_eval.py \
     --model_path ${OUTPUT_DIR} \
     --streategy Parallel \
@@ -143,4 +143,4 @@ EVAL_BATCH_SIZE=8
 SAVE_DIR=${OUTPUT_DIR}/math_eval
 LANG_ONLY=None
 LANGS_VEC_DIR_PATH=${OUTPUT_DIR}/langs_vecs
-mathoctopus_shift_eval
+math_shift_eval

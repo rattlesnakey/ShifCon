@@ -30,7 +30,7 @@ vllm==0.2.4
 
 
 ## 💻 Models
-- You can download our already trained first stage model from huggingface hub [Link] and fill the variable `model_dict["mgsm-llama-2-7b"]` (in `pipeline_train-eval.sh`) with its path content.
+- You can download the model that has been trained with Multilingual Supervised Fine-tuning (MSFT) using multilingual dataset, i.e., first stage model (See model details in Appendix A.4) from huggingface hub [Link](https://huggingface.co/hengyuan1/mgsm-stage-1) and fill the variable `model_dict["mgsm-llama-2-7b"]` (in `pipeline_train-eval.sh`) with its path content.
 
 
 ## 📥 Data
@@ -81,5 +81,5 @@ data_dict["MGSM8k-trans"]='/your/data/path/to/mgsm_trans_{batch_size}.jsonll'
 DATASET_NAME=MGSM8k-gen
 CONTRASTIVE_DATASET_NAME=MGSM8k-trans
 ```
-- set the path of your model and training data to the `model_dict` and `data_dict`, and then execute `bash pipeline_train_eval.sh` to train your model.
+- Set the path of your model and training data to the `model_dict` and `data_dict`, and then execute `bash pipeline_train_eval.sh` to train your model.
 
