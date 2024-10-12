@@ -1,5 +1,7 @@
 # ShifCon: Enhancing Non-Dominant Language capabilities with a Shift-based Contrastive Framework
-This is the code repository of "ShifCon: Enhancing Non-Dominant Language capabilities with a Shift-based Contrastive Framework"
+This is the code repository of "ShifCon: Enhancing Non-Dominant Language capabilities with a Shift-based Contrastive Framework".
+
+
 Our code and data will be publicly released soon! 
 
 # 🚀 Introduction
